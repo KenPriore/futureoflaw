@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 615" role="img" aria-labelledby="motion-title motion-desc">
+<title id="motion-title">The future of law across three overlapping horizons</title>
+<desc id="motion-desc">An original diagram with three connected layers. H1: established legal systems, agreements, disputes and compliance. H2: experiments in automation, integration and new services. H3: emerging patterns of access, authority and new roles. Moving points represent activity within each horizon, not a forecast of progress.</desc>
+<defs>
+ <filter id="soft-shadow" x="-25%" y="-25%" width="160%" height="170%"><feDropShadow dx="0" dy="9" stdDeviation="9" flood-color="#1b5961" flood-opacity=".11"/></filter>
+ <g id="doc" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M-11-16H4l8 8v24h-23zM4-16v9h8M-5 0h11M-5 7h8"/></g>
+ <g id="balance" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M0-17v32M-10 15h20M-15-8h30M-11-8l-7 15h14zM11-8 4 7h14z"/></g>
+ <g id="check" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M0-16 13-10v12c0 8-13 15-13 15S-13 10-13 2v-12zM-6 0l4 5L7-6"/></g>
+ <g id="nodes" fill="none" stroke="currentColor" stroke-width="2.3"><path d="M-10-10 10 10M10-10-10 10"/><rect x="-17" y="-17" width="12" height="12" rx="3"/><rect x="5" y="-17" width="12" height="12" rx="3"/><rect x="-17" y="5" width="12" height="12" rx="3"/><rect x="5" y="5" width="12" height="12" rx="3"/></g>
+ <g id="person" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"><circle cy="-9" r="7"/><path d="M-14 16v-5a14 14 0 0 1 28 0v5"/></g>
+ <g id="switch" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"><rect x="-19" y="-10" width="38" height="20" rx="10"/><circle cx="8" r="6"/></g>
+</defs>
+<g font-family="Arial,Helvetica,sans-serif" fill="#123c43">
+ <path d="M192 135C80 175 80 244 192 316M568 310C635 349 635 429 565 485" fill="none" stroke="#85b5b9" stroke-width="2" stroke-dasharray="5 8"/>
+ <g transform="translate(0 0)">
+  <rect x="20" y="29" width="43" height="29" rx="10" fill="#007e80"/><text x="41.5" y="49" text-anchor="middle" fill="white" font-size="14" font-weight="700">H3</text>
+  <text x="77" y="49" font-size="19" font-weight="600">Emerging legal systems</text>
+  <g filter="url(#soft-shadow)"><path d="M161 126 402 74 601 142v17L360 212 161 143z" fill="#76b8b5"/><path d="M161 126 402 74 601 142 360 196z" fill="#b4dad3"/><path d="M161 126 360 196v16L161 143z" fill="#8cc8bf"/></g>
+  <path id="flow-h3" d="M195 139 298 116Q318 112 340 119L433 151Q450 156 468 151L567 129" fill="none" stroke="#6aa9a7" stroke-width="3"/>
+  <g transform="translate(269 109)"><rect x="-32" y="-43" width="64" height="58" rx="13" fill="#007e80"/><g transform="translate(0 -14)" style="color:white"><use href="#person"/></g></g>
+  <g transform="translate(409 94)"><rect x="-32" y="-43" width="64" height="58" rx="13" fill="#ea6628"/><g transform="translate(0 -14)" style="color:white"><use href="#switch"/></g></g>
+  <g transform="translate(509 134)"><rect x="-27" y="-40" width="54" height="55" rx="13" fill="#eabd35"/><g transform="translate(0 -12)" style="color:#123c43"><use href="#nodes"/></g></g>
+  <g font-size="14" font-weight="600"><text x="221" y="174">Access</text><text x="365" y="173">Authority</text><text x="508" y="185">New roles</text></g>
+  <circle data-runner="flow-h3" r="6" fill="#fff" stroke="#007e80" stroke-width="3"/>
+ </g>
+ <g transform="translate(0 189)">
+  <rect x="20" y="29" width="43" height="29" rx="10" fill="#1681a5"/><text x="41.5" y="49" text-anchor="middle" fill="white" font-size="14" font-weight="700">H2</text>
+  <text x="77" y="49" font-size="19" font-weight="600">Experiments &amp; transition</text>
+  <g filter="url(#soft-shadow)"><path d="M161 126 402 74 601 142v17L360 212 161 143z" fill="#6caec5"/><path d="M161 126 402 74 601 142 360 196z" fill="#b5dbe8"/><path d="M161 126 360 196v16L161 143z" fill="#86bfd2"/></g>
+  <path id="flow-h2" d="M195 139 298 116Q318 112 340 119L433 151Q450 156 468 151L567 129" fill="none" stroke="#6eabbc" stroke-width="3"/>
+  <g transform="translate(269 109)"><rect x="-32" y="-43" width="64" height="58" rx="13" fill="#1681a5"/><g transform="translate(0 -14)" style="color:white"><use href="#doc"/></g></g>
+  <g transform="translate(409 94)"><rect x="-32" y="-43" width="64" height="58" rx="13" fill="#1681a5"/><g transform="translate(0 -14)" style="color:white"><use href="#nodes"/></g></g>
+  <g transform="translate(509 134)"><rect x="-27" y="-40" width="54" height="55" rx="13" fill="#eabd35"/><g transform="translate(0 -12)" style="color:#123c43"><use href="#person"/></g></g>
+  <g font-size="14" font-weight="600"><text x="205" y="174">Automation</text><text x="361" y="173">Integration</text><text x="492" y="185">New services</text></g>
+  <circle data-runner="flow-h2" r="6" fill="#fff" stroke="#1681a5" stroke-width="3"/>
+ </g>
+ <g transform="translate(0 378)">
+  <rect x="20" y="29" width="43" height="29" rx="10" fill="#a94621"/><text x="41.5" y="49" text-anchor="middle" fill="white" font-size="14" font-weight="700">H1</text>
+  <text x="77" y="49" font-size="19" font-weight="600">Established legal systems</text>
+  <g filter="url(#soft-shadow)"><path d="M161 126 402 74 601 142v17L360 212 161 143z" fill="#bbbbb0"/><path d="M161 126 402 74 601 142 360 196z" fill="#e9eeea"/><path d="M161 126 360 196v16L161 143z" fill="#c5d0c9"/></g>
+  <path id="flow-h1" d="M195 139 298 116Q318 112 340 119L433 151Q450 156 468 151L567 129" fill="none" stroke="#9fbbb7" stroke-width="3"/>
+  <g transform="translate(269 109)"><rect x="-32" y="-43" width="64" height="58" rx="13" fill="#fff"/><g transform="translate(0 -14)" style="color:#007e80"><use href="#doc"/></g></g>
+  <g transform="translate(409 94)"><rect x="-32" y="-43" width="64" height="58" rx="13" fill="#123c43"/><g transform="translate(0 -14)" style="color:white"><use href="#balance"/></g></g>
+  <g transform="translate(509 134)"><rect x="-27" y="-40" width="54" height="55" rx="13" fill="#fff"/><g transform="translate(0 -12)" style="color:#007e80"><use href="#check"/></g></g>
+  <g font-size="14" font-weight="600"><text x="202" y="174">Agreements</text><text x="368" y="173">Disputes</text><text x="491" y="185">Compliance</text></g>
+  <circle data-runner="flow-h1" r="6" fill="#ea6628" stroke="#fff" stroke-width="3"/>
+ </g>
+</g>
+</svg>
