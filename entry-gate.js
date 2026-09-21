@@ -3,7 +3,7 @@
   const base = new URL('.', document.currentScript.src);
   const passwordHash = 'cc7f6ef9477a15f0e39e98dab2833acea244b0148828b8525d6deebc1884f6e4';
   const storageKey = 'future-of-law-entry:' + base.pathname;
-  const pages = new Set(['index.html', 'worlds.html', 'horizons.html', 'perspectives.html', 'sources.html']);
+  const pages = new Set(['index.html', 'worlds.html', 'horizons.html', 'perspectives.html']);
   const destination = value => {
     const fallback = new URL('index.html', base).href;
     try {
